@@ -1,0 +1,6 @@
+{
+  "name": "ZuckTV",
+  "description": "ZuckTV is a beautiful, highly responsive bangla and global live television dashboard with multi-category filters, search, and custom stream additions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
