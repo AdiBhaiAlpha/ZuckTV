@@ -13,708 +13,765 @@ export const CATEGORIES = [
 ] as const;
 
 export const DEFAULT_CHANNELS: Channel[] = [
+  // ==================== SPORTS ====================
+  {
+    id: 'sports-go3-1',
+    name: 'Go3 Sport 1 HD',
+    url: 'http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/18000/index.m3u8',
+    category: 'sports',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Go3_Sport_1_Logo_2023.svg/500px-Go3_Sport_1_Logo_2023.svg.png',
+    description: 'Premier Live action Sports and Football streams.'
+  },
+  {
+    id: 'sports-go3-2',
+    name: 'Go3 Sport 2 HD',
+    url: 'http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/18001/index.m3u8',
+    category: 'sports',
+    logo: 'https://r2.thesportsdb.com/images/media/channel/logo/14ktq21723836456.png',
+    description: 'High-definition Sports coverage.'
+  },
+  {
+    id: 'sports-toffee-1',
+    name: 'TOFFEE-🇧🇩-1 FHD (Server 1)',
+    url: 'http://sm-monirul.top/tof/live/gervsivo/index.m3u8',
+    category: 'sports',
+    logo: 'https://i.imgur.com/53aSeDH.png',
+    description: 'Popular high-definition Bangladeshi live sports stream.'
+  },
+  {
+    id: 'sports-toffee-1-s2',
+    name: 'TOFFEE-🇧🇩-1 FHD (Server 2)',
+    url: 'https://kazimmt.ami.bd/playlist/TF/TF-1.m3u8',
+    category: 'sports',
+    logo: 'https://i.imgur.com/53aSeDH.png',
+    description: 'Alternative high-speed server stream.'
+  },
+  {
+    id: 'sports-toffee-2',
+    name: 'TOFFEE-🇧🇩-2 FHD (Server 1)',
+    url: 'http://sm-monirul.top/tof/live/ecuvscur/index.m3u8',
+    category: 'sports',
+    logo: 'https://i.imgur.com/53aSeDH.png',
+    description: 'Live action premium toffee sports coverage.'
+  },
+  {
+    id: 'sports-toffee-2-s2',
+    name: 'TOFFEE-🇧🇩-2 FHD (Server 2)',
+    url: 'https://kazimmt.ami.bd/playlist/TF/TF-2.m3u8',
+    category: 'sports',
+    logo: 'https://i.imgur.com/53aSeDH.png',
+    description: 'Alternative fast route.'
+  },
+  {
+    id: 'sports-toffee-3',
+    name: 'TOFFEE-🇧🇩-3 FHD (Server 1)',
+    url: 'http://sm-monirul.top/tof/live/tunvsjap/index.m3u8',
+    category: 'sports',
+    logo: 'https://i.imgur.com/53aSeDH.png',
+    description: 'Action playbyplays of world sports.'
+  },
+  {
+    id: 'sports-toffee-3-s2',
+    name: 'TOFFEE-🇧🇩-3 FHD (Server 2)',
+    url: 'https://kazimmt.ami.bd/playlist/TF/TF-3.m3u8',
+    category: 'sports',
+    logo: 'https://i.imgur.com/53aSeDH.png',
+    description: 'Alternative fast mirror.'
+  },
+  {
+    id: 'sports-toffee-4',
+    name: 'TOFFEE-🇧🇩-4 FHD (Server 1)',
+    url: 'https://sm-monirul.top/tof/live/toffee4/index.m3u8',
+    category: 'sports',
+    logo: 'https://i.imgur.com/53aSeDH.png',
+    description: 'Interactive sports discussion and live streams.'
+  },
+  {
+    id: 'sports-toffee-4-s2',
+    name: 'TOFFEE-🇧🇩-4 FHD (Server 2)',
+    url: 'https://kazimmt.ami.bd/playlist/TF/TF-4.m3u8',
+    category: 'sports',
+    logo: 'https://i.imgur.com/53aSeDH.png',
+    description: 'High throughput network play stream.'
+  },
+  {
+    id: 'sports-toffee-5',
+    name: 'TOFFEE-🇧🇩-5 FHD (Server 1)',
+    url: 'https://sm-monirul.top/tof/live/toffee5/index.m3u8',
+    category: 'sports',
+    logo: 'https://i.imgur.com/53aSeDH.png',
+    description: 'Premium live regional sport feeds.'
+  },
+  {
+    id: 'sports-toffee-5-s2',
+    name: 'TOFFEE-🇧🇩-5 FHD (Server 2)',
+    url: 'https://kazimmt.ami.bd/playlist/TF/TF-5.m3u8',
+    category: 'sports',
+    logo: 'https://i.imgur.com/53aSeDH.png',
+    description: 'High speed toffee server connection.'
+  },
+  {
+    id: 'sports-l5',
+    name: 'SONY LIV 5',
+    url: 'http://live.balajibroadband.com:3500/live/155.m3u8',
+    category: 'sports',
+    logo: 'https://jiotvimages.cdn.jio.com/dare_images/images/SonyLIV_Sports_5.png',
+    description: 'Sony Liv live matches and regional leagues.'
+  },
+  {
+    id: 'sports-l1',
+    name: 'SONY LIV 1',
+    url: 'http://live.balajibroadband.com:3500/live/162.m3u8',
+    category: 'sports',
+    logo: 'https://jiotvimages.cdn.jio.com/dare_images/images/SonyLIV_Sports_1.png',
+    description: 'Premium sports and major football broadcaster.'
+  },
+  {
+    id: 'sports-l2',
+    name: 'SONY LIV 2',
+    url: 'http://live.balajibroadband.com:3500/live/891.m3u8',
+    category: 'sports',
+    logo: 'https://jiotvimages.cdn.jio.com/dare_images/images/SonyLIV_Sports_2.png',
+    description: 'Non-stop interactive sports mirror.'
+  },
+  {
+    id: 'sports-l3',
+    name: 'SONY LIV 3',
+    url: 'http://live.balajibroadband.com:3500/live/892.m3u8',
+    category: 'sports',
+    logo: 'https://jiotvimages.cdn.jio.com/dare_images/images/SonyLIV_Sports_3.png',
+    description: 'Sony Liv Sports live digital action stream.'
+  },
+  {
+    id: 'sports-bd-v-aus-1',
+    name: 'BD V AUS 🇧🇩 FHD (S1)',
+    url: 'http://114.130.57.233:8080/TsportHD/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1',
+    category: 'sports',
+    logo: 'https://i.imgur.com/UspLV8i.png',
+    description: 'Live bilateral series and action.'
+  },
+  {
+    id: 'sports-bd-v-aus-2',
+    name: 'BD V AUS 🇧🇩 FHD (S2)',
+    url: 'http://103.158.133.62:8080/live/index.m3u8',
+    category: 'sports',
+    logo: 'https://i.imgur.com/UspLV8i.png',
+    description: 'Alternative live sports stream.'
+  },
+  {
+    id: 'sports-bd-v-aus-3',
+    name: 'BD V AUS 🇧🇩 FHD (S3)',
+    url: 'https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8',
+    category: 'sports',
+    logo: 'https://i.imgur.com/UspLV8i.png',
+    description: 'Proxy sports high definition action stream.'
+  },
+  {
+    id: 'sports-fifa-worldcup',
+    name: 'Fifa World Cup Live',
+    url: 'https://live-aburayhan1103.telewebion.ir/ek/faratar/live/playlist.m3u8?isp=NA&city=NA',
+    category: 'sports',
+    logo: 'https://shorturl.at/NPoFh',
+    description: 'Continuous football action and premium summaries.'
+  },
+  {
+    id: 'sports-unite8-s1-1',
+    name: 'Unite8 Sports 1 FHD (S1)',
+    url: 'https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8',
+    category: 'sports',
+    logo: 'https://i.postimg.cc/0NYVSnkr/Gemini-Generated-Image-ykkw2cykkw2cykkw.png',
+    description: 'High-definition football and cricket broadcasting.'
+  },
+  {
+    id: 'sports-unite8-s1-2',
+    name: 'Unite8 Sports 1 FHD (S2)',
+    url: 'https://xfireflix.my.id/mac.php?id=373312.m3u8',
+    category: 'sports',
+    logo: 'https://i.postimg.cc/0NYVSnkr/Gemini-Generated-Image-ykkw2cykkw2cykkw.png',
+    description: 'Alternative fast route.'
+  },
+  {
+    id: 'sports-unite8-s1-3',
+    name: 'Unite8 Sports 1 FHD (S3)',
+    url: 'https://restream-bay.vercel.app/chuchhi?id=206315&format=.m3u8',
+    category: 'sports',
+    logo: 'https://i.postimg.cc/0NYVSnkr/Gemini-Generated-Image-ykkw2cykkw2cykkw.png',
+    description: 'Proxy high definition sports mirror.'
+  },
+  {
+    id: 'sports-fifa-fast',
+    name: 'FIFA SERVER FAST',
+    url: 'https://live05.msdht.app/live/24561735.m3u8',
+    category: 'sports',
+    logo: 'https://i.postimg.cc/0NYVSnkr/Gemini-Generated-Image-ykkw2cykkw2cykkw.png',
+    description: 'Ultra-speed sports streaming connection.'
+  },
+  {
+    id: 'sports-caze-br',
+    name: 'Caze TV BR',
+    url: 'https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8',
+    category: 'sports',
+    logo: 'https://i.postimg.cc/0NYVSnkr/Gemini-Generated-Image-ykkw2cykkw2cykkw.png',
+    description: 'Live Brazilian sporting and interactive programs.'
+  },
+  {
+    id: 'sports-bein-direct',
+    name: 'beIN Sports Direct',
+    url: 'https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8',
+    category: 'sports',
+    logo: 'https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg',
+    description: 'Global flagship match channels and tournaments.'
+  },
+  {
+    id: 'sports-sky-world-cup',
+    name: 'Football World Cup Sky',
+    url: 'https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8',
+    category: 'sports',
+    logo: 'https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg',
+    description: 'Sky sports live world cup matches play stream.'
+  },
+  {
+    id: 'sports-unite8-s2',
+    name: 'Unite8 Sports 2 HD',
+    url: 'http://212.102.34.8:9080/AndFlixHD/video.m3u8',
+    category: 'sports',
+    logo: 'https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg',
+    description: 'Regional premium sports and football action.'
+  },
+  {
+    id: 'sports-fancode-1',
+    name: 'FANCODE HD',
+    url: 'https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd',
+    category: 'sports',
+    logo: 'https://iili.io/KWn2Z0u.png',
+    description: 'Premier digital sporting events coverage.'
+  },
+  {
+    id: 'sports-cricbuzz-1',
+    name: 'Cricbuzz Live HD',
+    url: 'https://xfireflix.my.id/mac.php?id=809382.m3u8',
+    category: 'sports',
+    logo: 'https://epg.pw/media/images/epg/2025/05/09/20250509042549016858_59.png',
+    description: 'Continuous cricket live scorecard and streams.'
+  },
+  {
+    id: 'sports-fox-501',
+    name: 'Fox Sports 501 HD',
+    url: 'https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/4748.ts',
+    category: 'sports',
+    logo: 'http://greenpa1.com/fox.png',
+    description: 'Fox Sports premium high power satellite action stream.'
+  },
+  {
+    id: 'sports-willow-cricket-1',
+    name: 'Willow Cricket HD (S1)',
+    url: 'https://xfireflix.my.id/mac.php?id=809386.m3u8',
+    category: 'sports',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtZcJANelaW8aBRREj0hAfcWIjvYWJdJ_Epg&usqp=CAU',
+    description: 'Live high throughput regional sporting action stream.'
+  },
+  {
+    id: 'sports-willow-cricket-2',
+    name: 'Willow Cricket HD (S2)',
+    url: 'https://tvsen5.aynaott.com/willowhd/index.m3u8',
+    category: 'sports',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtZcJANelaW8aBRREj0hAfcWIjvYWJdJ_Epg&usqp=CAU',
+    description: 'Fast alternative direct link for Willow.'
+  },
+  {
+    id: 'sports-t-sports-1',
+    name: 'T Sports Live (S1)',
+    url: 'https://mflixott.com/tv/dd/live.php?id=270',
+    category: 'sports',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/500px-T_Sports_logo.svg.png',
+    description: 'Bilateral cricket tournaments and major leagues broadcaster.'
+  },
+  {
+    id: 'sports-t-sports-2',
+    name: 'T Sports Live (S2)',
+    url: 'http://113.21.231.219:789/Tsports/index.m3u8',
+    category: 'sports',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/500px-T_Sports_logo.svg.png',
+    description: 'Local server optimized link of T Sports.'
+  },
+  {
+    id: 'sports-t-sports-3',
+    name: 'T Sports Live (S3)',
+    url: 'https://tvsen7.aynaott.com/tsportsfhd/index.m3u8',
+    category: 'sports',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/500px-T_Sports_logo.svg.png',
+    description: 'Fast alternative port of T Sports HD.'
+  },
+  {
+    id: 'sports-dazn-combat',
+    name: 'DAZN COMBAT',
+    url: 'https://dazn-combat-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-combat-rakuten/CDN/master.m3u8',
+    category: 'sports',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThxvpmiCnoGHXYiTzY0lp1E0UXdRSPg69f3Q&s',
+    description: 'Championship boxing, martial arts and ringside.'
+  },
+  {
+    id: 'sports-dazn-ringside',
+    name: 'DAZN RINGSIDE',
+    url: 'https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playlist.m3u8',
+    category: 'sports',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKVJVdXD6NTy8nMOIOb_mqewV8NZMUjHdPog&s',
+    description: 'Ringside commentaries, interviews and championship replays.'
+  },
+  {
+    id: 'sports-sony-ten1',
+    name: 'Sony Sports 1 HD',
+    url: 'https://b4uplay.com/sliv/stream.m3u8?id=1000009276|referer=https://b4uplay.com/',
+    category: 'sports',
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-1-hd-in.png',
+    description: 'High definition Sony Ten 1 sports live action stream.'
+  },
+  {
+    id: 'sports-sony-ten2',
+    name: 'Sony Sports 2 HD',
+    url: 'https://b4uplay.com/sliv/stream.m3u8?id=1000009277|referer=https://b4uplay.com/',
+    category: 'sports',
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-2-hd-in.png',
+    description: 'Flagship European football leagues and actions.'
+  },
+  {
+    id: 'sports-sony-ten3',
+    name: 'Sony Sports 3 HD',
+    url: 'https://b4uplay.com/sliv/stream.m3u8?id=1000009278|referer=https://b4uplay.com/',
+    category: 'sports',
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-3-hd-in.png',
+    description: 'Multi-lingual premium sports coverage of Sony.'
+  },
+  {
+    id: 'sports-sony-ten5',
+    name: 'Sony Sports 5 HD',
+    url: 'https://b4uplay.com/sliv/stream.m3u8?id=1000009275|referer=https://b4uplay.com/',
+    category: 'sports',
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-5-hd-in.png',
+    description: 'Sony Ten 5 Sports live interactive portal stream.'
+  },
+
+  // ==================== NEWS ====================
+  {
+    id: 'news-fgn',
+    name: 'FGN NEWS',
+    url: 'http://103.175.73.12:8080/live/856/856_0.m3u8',
+    category: 'news',
+    logo: 'https://yt3.googleusercontent.com/rDtVRwirMau7LnqmpkNHMrsqCQ7TtWTIbXePXFcY_GWDMs4z64A-w2XBG92t-IV4-C8UoEI=s900-c-k-c0x00ffffff-no-rj',
+    description: 'Flagship non-stop live global breaking headlines channel.'
+  },
+  {
+    id: 'news-btv',
+    name: 'বিটিভি নিউজ',
+    url: 'https://in1.sunilprasad.com.np/wodgoLive/btv-world/master.m3u8',
+    category: 'news',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BTV_News_Logo.svg/1280px-BTV_News_Logo.svg.png',
+    description: 'Bangladesh Television national 24/7 dedicated news network.'
+  },
+  {
+    id: 'news-somoy-1',
+    name: 'সময় টিভি (Server 1)',
+    url: 'https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8',
+    category: 'news',
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/somoy-bd.png',
+    description: 'First satellite news oriented television channel in Bangladesh.'
+  },
+  {
+    id: 'news-somoy-2',
+    name: 'সময় টিভি (Server 2)',
+    url: 'http://114.130.57.224:8080/Somoy-TV-3Mb/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1',
+    category: 'news',
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/somoy-bd.png',
+    description: 'Backup high fidelity stream of Somoy live coverage.'
+  },
+  {
+    id: 'news-somoy-3',
+    name: 'সময় টিভি (Server 3)',
+    url: 'https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/somoyt000011226615544544.stream/tracks-v1a1/mono.m3u8',
+    category: 'news',
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/somoy-bd.png',
+    description: 'Somoy News network local fast latency route.'
+  },
+  {
+    id: 'news-jamuna-1',
+    name: 'যমুনা টিভি (Server 1)',
+    url: 'http://103.158.133.62:8080/jamunatv/index.m3u8',
+    category: 'news',
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/jamuna-tv-bd.png',
+    description: 'Committed to fearless, objective investigative reporting.'
+  },
+  {
+    id: 'news-jamuna-2',
+    name: 'যমুনা টিভি (Server 2)',
+    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8',
+    category: 'news',
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/jamuna-tv-bd.png',
+    description: 'Non-stop interactive news broadcast and discussions.'
+  },
+  {
+    id: 'news-jamuna-3',
+    name: 'যমুনা টিভি (Server 3)',
+    url: 'https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/jamuna-test-sample-ok.stream/tracks-v1a1/mono.m3u8',
+    category: 'news',
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/jamuna-tv-bd.png',
+    description: 'Low-latency alternative mirror for Jamuna TV.'
+  },
+  {
+    id: 'news-independent-1',
+    name: 'Independent TV (S1)',
+    url: 'http://stvlive.net:8080/independent/index.m3u8',
+    category: 'news',
+    logo: 'https://cdn.itvbd.net/contents/themes/public/style/images/logo.png',
+    description: 'Analytical talk shows and immediate headlines around the country.'
+  },
+  {
+    id: 'news-independent-2',
+    name: 'Independent TV (S2)',
+    url: 'https://sm-monirul.top/toffee/play/independent_tv.m3u8',
+    category: 'news',
+    logo: 'https://cdn.itvbd.net/contents/themes/public/style/images/logo.png',
+    description: 'First popular regional news service stream.'
+  },
+  {
+    id: 'news-independent-3',
+    name: 'Independent TV (S3)',
+    url: 'http://103.158.133.62:8080/independent/index.m3u8',
+    category: 'news',
+    logo: 'https://cdn.itvbd.net/contents/themes/public/style/images/logo.png',
+    description: 'High performance dedicated local server routing.'
+  },
+  {
+    id: 'news-ch24-1',
+    name: 'Channel 24 (S1)',
+    url: 'http://stvlive.net:8080/channel24/index.m3u8',
+    category: 'news',
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/channel-24-bd.png',
+    description: 'Highly acclaimed general headlines and economy talkshows.'
+  },
+  {
+    id: 'news-ch24-2',
+    name: 'Channel 24 (S2)',
+    url: 'http://103.158.133.62:8080/channel24/index.m3u8',
+    category: 'news',
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/channel-24-bd.png',
+    description: 'Channel 24 network local fiber connection.'
+  },
+  {
+    id: 'news-ch24-3',
+    name: 'Channel 24 (S3)',
+    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8',
+    category: 'news',
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/channel-24-bd.png',
+    description: 'South Asian premium satellite news broadcaster.'
+  },
+  {
+    id: 'news-atn-news-1',
+    name: 'ATN News (Server 1)',
+    url: 'http://103.158.133.62:8080/atnnews/index.m3u8',
+    category: 'news',
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/atn-news-hd-bd.png',
+    description: 'ATN News network local dedicated route.'
+  },
+  {
+    id: 'news-atn-news-2',
+    name: 'ATN News (Server 2)',
+    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8',
+    category: 'news',
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/atn-news-hd-bd.png',
+    description: 'High-speed alternative portal for ATN News.'
+  },
+  {
+    id: 'news-atn-news-3',
+    name: 'ATN News (Server 3)',
+    url: 'https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/atnws-sg.stream/tracks-v1a1/mono.m3u8',
+    category: 'news',
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/atn-news-hd-bd.png',
+    description: 'Committed to live current affairs and headlines.'
+  },
+
+  // ==================== MOVIES ====================
+  {
+    id: 'movie-mhakka',
+    name: 'MHAKKA TV',
+    url: 'https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8',
+    category: 'movie',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_bKVo8j8dSj_8kK-3I0pG1lOu5eUa1XU3iw&s',
+    description: 'Vibrant action films, dramas and live movie releases.'
+  },
+  {
+    id: 'movie-zee-bangla-cinema',
+    name: 'Zee Bangla Sonar',
+    url: 'https://stream.ottplus.live/live/zee_bangla_cinema_abr/live/zee_bangla_cinema_720/chunks.m3u8',
+    category: 'movie',
+    logo: 'https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeBanglaSonar.png',
+    description: 'Continuously active Bengali hits and classic dramas.'
+  },
+  {
+    id: 'movie-sonymax',
+    name: 'Sony Max SD',
+    url: 'http://103.158.133.62:8080/sonymax/index.m3u8',
+    category: 'movie',
+    logo: 'https://jiotvimages.cdn.jio.com/dare_images/images/channel/2102fac092ee28f75652131b19d74260.png',
+    description: 'Goldmines premium Indian movie events and blockbusters.'
+  },
+  {
+    id: 'movie-goldmines-1',
+    name: 'Goldmines TV',
+    url: 'https://cdn-2.pishow.tv/live/1459/master.m3u8',
+    category: 'movie',
+    logo: 'https://static.wikia.nocookie.net/jhmovie/images/7/7b/Goldmines_logo.png',
+    description: 'Hindi movies, blockbusters and classic family releases.'
+  },
+  {
+    id: 'movie-b4u',
+    name: 'B4U Movies',
+    url: 'http://103.175.73.12:8080/live/43/43_0.m3u8',
+    category: 'movie',
+    logo: 'https://raw.githubusercontent.com/subirkumarpaul/Logo/main/B4U%20Movies.png',
+    description: 'South Bollywood action movies and hit collections.'
+  },
+
   // ==================== CARTOON / KIDS ====================
   {
-    id: 'cartoon-duronto-cdn',
-    name: 'দূরন্ত টিভি (Public CDN)',
-    url: 'https://tvsen4.aynaott.com/durontotv/index.m3u8',
+    id: 'cartoon-disney-hd',
+    name: 'Disney Channel HD',
+    url: 'https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/19741.ts',
+    category: 'cartoon',
+    logo: 'https://live.dinesh29.com.np/logos/disney-channel.png',
+    description: 'High definition premium cartoons and interactive kids series.'
+  },
+  {
+    id: 'cartoon-duronto-tv',
+    name: 'Duronto TV (দুরন্ত)',
+    url: 'https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/duronto.stream/tracks-v1a1/mono.m3u8',
     category: 'cartoon',
     logo: 'https://upload.wikimedia.org/wikipedia/en/d/d7/Duronto_TV_Logo.png',
     description: 'First popular children-based TV channel in Bangladesh.'
   },
   {
-    id: 'cartoon-toonami',
-    name: 'Toonami Aftermath Movie',
-    url: 'http://api.toonamiaftermath.com:3000/movies/playlist.m3u8',
+    id: 'cartoon-network-m',
+    name: 'Cartoon Network Kids',
+    url: 'https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/playlist.m3u8',
     category: 'cartoon',
-    logo: 'https://static.wikia.nocookie.net/logopedia/images/6/62/TOONAMI-2025.svg',
-    description: 'Non-stop animated and hero-themed cinematic collections.'
-  },
-  // ==================== SPORTS ====================
-  {
-    id: 'sports-bijoy-1',
-    name: 'Sports 1 (BIJOY Local)',
-    url: 'http://10.20.30.30:7171/Sports-1/tracks-v1a1/mono.m3u8?token=sunrise0galaxy0eid',
-    category: 'sports',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/f628edc7-701f-4d64-97eb-623efd39d80f_180x180_Start-Sports-1-hd.jpg',
-    description: 'Local high-definition live action sports selector.'
-  },
-  {
-    id: 'sports-bijoy-2',
-    name: 'Sports 2 (BIJOY Local)',
-    url: 'http://10.20.30.30:7171/Sports-2/tracks-v1a1/mono.m3u8?token=sunrise0galaxy0eid',
-    category: 'sports',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/a7cb31b1-b6b4-4ec4-baed-6677124a8959_180x180_SSCSports1HD.jpeg',
-    description: 'Live high throughput regional sporting action stream.'
-  },
-  {
-    id: 'sports-bijoy-3',
-    name: 'Sports 3 (BIJOY Local)',
-    url: 'http://10.20.30.30:7171/Sports-3/tracks-v1a1/mono.m3u8?token=sunrise0galaxy0eid',
-    category: 'sports',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/22a8244f-9923-497a-a626-768cdd2d4d3c_180x180_sports-18.jpg',
-    description: 'Live coverage of world cups, leagues and grand prix.'
-  },
-  {
-    id: 'sports-bijoy-4',
-    name: 'Sports 4 (BIJOY Local)',
-    url: 'http://10.20.30.30:7171/Sports-4/tracks-v1a1/mono.m3u8?token=sunrise0galaxy0eid',
-    category: 'sports',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/f628edc7-701f-4d64-97eb-623efd39d80f_180x180_Start-Sports-1-hd.jpg',
-    description: 'Interactive sports discussion and live feeds.'
-  },
-  {
-    id: 'sports-premierkey',
-    name: 'Football - Premier League (Local)',
-    url: 'http://10.20.30.30:7171/Sports-7/tracks-v1a1/mono.m3u8?token=sunrise0galaxy0eid',
-    category: 'sports',
-    logo: 'https://grandcinema.tv/logo.png',
-    description: 'English Premier League non-stop local broadcast.'
-  },
-  {
-    id: 'sports-laligakey',
-    name: 'Football - LaLiga TV (Local)',
-    url: 'http://10.20.30.30:7171/Sports-8/tracks-v1a1/mono.m3u8?token=sunrise0galaxy0eid',
-    category: 'sports',
-    logo: 'https://grandcinema.tv/logo.png',
-    description: 'Spanish LaLiga local interactive football coverage.'
-  },
-
-  // ==================== NEWS ====================
-  {
-    id: 'news-somoy-cdn',
-    name: 'সময় টিভি (Public CDN)',
-    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8',
-    category: 'news',
-    logo: 'https://dl.dropbox.com/s/leielj83em5kg7h/somoy_news.png',
-    description: 'Leading 24/7 news broadcaster of Bangladesh.'
-  },
-  {
-    id: 'news-somoy-local',
-    name: 'Somoy News (BIJOY Local)',
-    url: 'http://10.20.30.30:7171/News-2/tracks-v1a1/mono.m3u8?token=sunrise0galaxy0eid',
-    category: 'news',
-    logo: 'https://dl.dropbox.com/s/leielj83em5kg7h/somoy_news.png',
-    description: 'Local ultra-speed live somoy breaking headlines.'
-  },
-  {
-    id: 'news-jamuna-cdn',
-    name: 'যমুনা টিভি (Public CDN)',
-    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8',
-    category: 'news',
-    logo: 'https://dl.dropbox.com/s/k7z1dsec1jfjbkn/jamuna_tv_bd.png',
-    description: 'Committed to fearless, objective journalistic reporting.'
-  },
-  {
-    id: 'news-jamuna-local',
-    name: 'Jamuna News (BIJOY Local)',
-    url: 'http://10.20.30.30:7171/News-4/tracks-v1a1/mono.m3u8?token=sunrise0galaxy0eid',
-    category: 'news',
-    logo: 'https://dl.dropbox.com/s/k7z1dsec1jfjbkn/jamuna_tv_bd.png',
-    description: 'Local high fidelity stream of Jamuna live coverage.'
-  },
-  {
-    id: 'news-71-cdn',
-    name: 'একাত্তর টিভি (Public CDN)',
-    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8',
-    category: 'news',
-    logo: 'https://s4.gifyu.com/images/imagea02f4314e761661d.png',
-    description: 'Full coverage of national current affairs and political debate.'
-  },
-  {
-    id: 'news-71-local',
-    name: '71 News (BIJOY Local)',
-    url: 'http://10.20.30.30:7171/News-5/tracks-v1a1/mono.m3u8?token=sunrise0galaxy0eid',
-    category: 'news',
-    logo: 'https://s4.gifyu.com/images/imagea02f4314e761661d.png',
-    description: 'Ekattor national news source local streaming portal.'
-  },
-  {
-    id: 'news-ch24-cdn',
-    name: 'চ্যানেল 24 (Public CDN)',
-    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8',
-    category: 'news',
-    logo: 'https://dl.dropbox.com/s/puf12xv5flgbnz5/channel24_bd.png',
-    description: 'Highly acclaimed infotainment, analysis and economy bulletin.'
-  },
-  {
-    id: 'news-ch24-local',
-    name: 'Channel 24 News (BIJOY Local)',
-    url: 'http://10.20.30.30:7171/News-3/tracks-v1a1/mono.m3u8?token=sunrise0galaxy0eid',
-    category: 'news',
-    logo: 'https://dl.dropbox.com/s/puf12xv5flgbnz5/channel24_bd.png',
-    description: 'Local server optimized link of Channel 24 News.'
-  },
-  {
-    id: 'news-independent-cdn',
-    name: 'ইনডিপেন্ডডেন্ট টিভি (Public CDN)',
-    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8',
-    category: 'news',
-    logo: 'https://dl.dropbox.com/s/7xwwb8hetz3w8rp/independent_tv.png',
-    description: 'Real-time informative reports and comprehensive live updates.'
-  },
-  {
-    id: 'news-independent-local',
-    name: 'Independent News (BIJOY Local)',
-    url: 'http://10.20.30.30:7171/News-9/tracks-v1a1/mono.m3u8?token=sunrise0galaxy0eid',
-    category: 'news',
-    logo: 'https://dl.dropbox.com/s/7xwwb8hetz3w8rp/independent_tv.png',
-    description: 'Non-stop interactive local news broadcast from Independent.'
-  },
-  {
-    id: 'news-atn-cdn',
-    name: 'এটিএন নিউজ (Public CDN)',
-    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8',
-    category: 'news',
-    logo: 'https://dl.dropbox.com/s/4ldi1dp09s8o6bm/atn_news_bd.png',
-    description: 'First 24-hour news oriented television channel in Bangladesh.'
-  },
-  {
-    id: 'news-atn-local',
-    name: 'ATN News (BIJOY Local)',
-    url: 'http://10.20.30.30:7171/News-10/tracks-v1a1/mono.m3u8?token=sunrise0galaxy0eid',
-    category: 'news',
-    logo: 'https://dl.dropbox.com/s/4ldi1dp09s8o6bm/atn_news_bd.png',
-    description: 'ATN News network local dedicated fast latency route.'
-  },
-  {
-    id: 'news-dbc-local',
-    name: 'DBC News (BIJOY Local)',
-    url: 'http://10.20.30.30:7171/News-7/tracks-v1a1/mono.m3u8?token=sunrise0galaxy0eid',
-    category: 'news',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/f71d343e-e574-4599-bed6-f622c2a6b741_180x180_0fb5d763-281f-4ed3-8c05-62aa33dfd0c2.png',
-    description: 'Analytical talk shows and immediate headlines around the country.'
-  },
-  {
-    id: 'news-24-local',
-    name: 'News 24 (BIJOY Local)',
-    url: 'http://10.20.30.30:7171/News-6/tracks-v1a1/mono.m3u8?token=sunrise0galaxy0eid',
-    category: 'news',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/2b7e4021-ff6b-4fb3-8a6e-36ff4388086d_180x180_8e4e88aa-10c0-4c91-8465-9c2ddad8b6e8.png',
-    description: '24-hour satellite news feed under East West Media Group.'
-  },
-  {
-    id: 'news-starnews-cdn',
-    name: 'Star News (Public CDN)',
-    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/1710-audio_113402_eng=113200-video=3224800.m3u8',
-    category: 'news',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/1ffb3fa3-7270-45e1-8cf7-4542db428670_180x180_Aljazeera.jpg',
-    description: 'South Asian premium satellite news broadcaster.'
-  },
-  {
-    id: 'news-starnews-local',
-    name: 'Star News (BIJOY Local)',
-    url: 'http://10.20.30.30:7171/News-1/tracks-v1a1/mono.m3u8?token=sunrise0galaxy0eid',
-    category: 'news',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/1ffb3fa3-7270-45e1-8cf7-4542db428670_180x180_Aljazeera.jpg',
-    description: 'Star news local server dedicated high performance link.'
-  },
-  {
-    id: 'news-aljazeera-local',
-    name: 'AL-Jazeera (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/News-8/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
-    category: 'news',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/1ffb3fa3-7270-45e1-8cf7-4542db428670_180x180_Aljazeera.jpg',
-    description: 'Doha based flagship international news service stream.'
-  },
-
-  // ==================== MOVIES ====================
-  {
-    id: 'movie-srktv-cdn',
-    name: 'SRK TV (Public CDN)',
-    url: 'https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8',
-    category: 'movie',
-    logo: 'https://sunplex.net/iptv/logo/depto-tv.jpg',
-    description: 'Non stop premium cinemas and cinematic clips.'
-  },
-  {
-    id: 'movie-srktv-local',
-    name: 'SRK TV (Local Server)',
-    url: 'http://10.20.30.30:8989/Srktv/tracks-v1a1/mono.ts.m3u8',
-    category: 'movie',
-    logo: 'https://sunplex.net/iptv/logo/depto-tv.jpg',
-    description: 'Low buffer active movie channel.'
-  },
-  {
-    id: 'movie-moviebangla-pub',
-    name: 'মুভি বাংলা (Public)',
-    url: 'http://alvetv.com/moviebanglatv/8080/index.m3u8',
-    category: 'movie',
-    logo: 'https://i.ibb.co/0rPdpW9/MB-TV.jpg',
-    description: 'Popular Bengali and Indian action movie broadcaster.'
-  },
-  {
-    id: 'movie-moviebangla-local',
-    name: 'মুভি বাংলা (Roarzone Alternative)',
-    url: 'https://edge2.roarzone.info:8447/roarzone/edge3/movie-bangla/tracks-v1a1/mono.m3u8?token=9d83f14e8afc0c60b3a0e9e3a3783af326e0844b-388f33a80110c35bf29fe1f6e55d4345-1772118157-1772114557',
-    category: 'movie',
-    logo: 'https://i.ibb.co/0rPdpW9/MB-TV.jpg',
-    description: 'High definition local streaming proxy for Movie Bangla.'
-  },
-  {
-    id: 'movie-bhojpuri',
-    name: 'Bhojpuri Cinema HD',
-    url: 'https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8',
-    category: 'movie',
-    logo: 'https://static.wikia.nocookie.net/logopedia/images/a/ad/Bhojpuri_cinema.png',
-    description: 'Bhojpuri songs, family dramas and cinema releases.'
-  },
-  {
-    id: 'movie-hollywood',
-    name: 'Action Hollywood Movies',
-    url: 'https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8',
-    category: 'movie',
-    logo: 'https://provider-static.plex.tv/epg/cms/production/c94e3220-9a45-42e9-8bdb-01fc43e0f27c/white_textAction_Hollywood_Movies_logo_dark_-_Angela_Chan.png',
-    description: 'A rich stream of classic western action, thrillers and suspense.'
-  },
-  {
-    id: 'movie-bangbang',
-    name: 'Bang Bang TV',
-    url: 'https://streams.sofast.tv/ptnr-yupptv/title-BANG-BANG-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/6a98fce2-bf4c-4bfb-91f4-c43851bb3801/manifest.m3u8',
-    category: 'movie',
-    logo: 'https://alchetron.com/cdn/bang-bang-tv-channel-86505200-5377-43bb-ac56-4a72cc2c786-resize-750.jpg',
-    description: 'Action hits, thriller shows and world class dramatic movies.'
-  },
-  {
-    id: 'movie-grandcinema',
-    name: 'Grand Cinema',
-    url: 'https://gcinemahls.wns.live/hls/stream.m3u8',
-    category: 'movie',
-    logo: 'https://grandcinema.tv/logo.png',
-    description: 'Artistic cinema, blockbusters and hit movies.'
-  },
-  {
-    id: 'movie-zeecinema-local',
-    name: 'ZEE Cinema HD (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Movies-1/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
-    category: 'movie',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/eac1d5e7-1738-46e5-b5c1-16afe3b579a6_180x180_ZeeCinemaHD.jpg',
-    description: 'Golden Hits and newly released movies on local fast servers.'
-  },
-  {
-    id: 'movie-andpicture-local',
-    name: 'AND Picture HD (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Movies-2/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
-    category: 'movie',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/eac1d5e7-1738-46e5-b5c1-16afe3b579a6_180x180_ZeeCinemaHD.jpg',
-    description: 'Modern, youthful Indian movies and dynamic films.'
-  },
-  {
-    id: 'movie-stargold-local',
-    name: 'Star GOLD HD (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Movies-4/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
-    category: 'movie',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/1071c4ad-c6ef-4f9c-9f09-8f658bbae1ad_180x180_SonyMAXHD.jpg',
-    description: 'Premium premier movie events and blockbusters.'
-  },
-  {
-    id: 'movie-sonymax-local',
-    name: 'SONY Max HD (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Movies-1/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid', // Keep exact user URL
-    category: 'movie',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/1071c4ad-c6ef-4f9c-9f09-8f658bbae1ad_180x180_SonyMAXHD.jpg',
-    description: 'The premier destination for Hindi cinemas and action movies.'
-  },
-  {
-    id: 'movie-cineplex-local',
-    name: 'CinePlex HD (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Movies-3/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
-    category: 'movie',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/ca2ecac1-7447-46fe-9921-e6c3e37a8dc9_180x180_hbo.jpg',
-    description: 'Western and premium multi-dub movie channel.'
-  },
-  {
-    id: 'movie-starmovies-local',
-    name: 'Star Movies HD (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Movies-7/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
-    category: 'movie',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/ca2ecac1-7447-46fe-9921-e6c3e37a8dc9_180x180_hbo.jpg',
-    description: 'Premium English movies and major Hollywood award releases.'
-  },
-  {
-    id: 'movie-sonypix-local',
-    name: 'SONY Pix HD (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Movies-6/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
-    category: 'movie',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/ca2ecac1-7447-46fe-9921-e6c3e37a8dc9_180x180_hbo.jpg',
-    description: 'Vibrant blockbuster Hollywood releases.'
-  },
-  {
-    id: 'movie-mnx-local',
-    name: 'MNX HD (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Movies-9/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
-    category: 'movie',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/ca2ecac1-7447-46fe-9921-e6c3e37a8dc9_180x180_hbo.jpg',
-    description: 'Non-stop Hollywood thrillers and fast-paced adventure streams.'
-  },
-  {
-    id: 'movie-axn-local',
-    name: 'AXN (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Movies-10/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
-    category: 'movie',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/ca2ecac1-7447-46fe-9921-e6c3e37a8dc9_180x180_hbo.jpg',
-    description: 'High-octane action thrillers and adventure series.'
-  },
-  {
-    id: 'movie-jolshamovie-local',
-    name: 'Jolsha Movies (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Movies-8/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
-    category: 'movie',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/794347ed-ed16-4fb7-be30-a78218fb5f85_180x180_ZeeBanglaCinema.jpg',
-    description: 'Popular cinema channel broadcasting Bengali hits.'
-  },
-  {
-    id: 'movie-colorscinema-local',
-    name: 'Colours Cinema (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Movies-11/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
-    category: 'movie',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/794347ed-ed16-4fb7-be30-a78218fb5f85_180x180_ZeeBanglaCinema.jpg',
-    description: 'A colorful blend of retro and new generation cinemas.'
+    logo: 'https://github.com/sonamul4545/Channel_logo-s/blob/main/CN.jpg?raw=true',
+    description: 'Non-stop classic Ben 10, Tom & Jerry and animated series.'
   },
 
   // ==================== ENTERTAINMENT ====================
   {
-    id: 'ent-btv-cdn',
-    name: 'বিটিভি (BTV HD Public CDN)',
-    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/1709-audio_113392_eng=113200-video=1692000.m3u8',
+    id: 'ent-bioscope',
+    name: 'Bioscope+',
+    url: 'https://sm-monirul.top/ultra_restream/bioscope/index.m3u8',
     category: 'entertainment',
-    logo: 'https://static.wikia.nocookie.net/logopedia/images/1/12/BTV_HD_Logo.svg',
-    description: 'National public television network of Bangladesh.'
+    logo: 'https://static.wikia.nocookie.net/etv-gspn-bangla/images/8/82/Bioscope%2B.png',
+    description: 'Popular dramas, movie reviews and alternative releases.'
   },
   {
-    id: 'ent-btv-manifest',
-    name: 'BTV National (Backup CDN)',
-    url: 'http://103.230.105.252:1935/live/btv/manifest.m3u8',
+    id: 'ent-btv-nat',
+    name: 'বিটিভি ন্যাশনাল',
+    url: 'https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8',
     category: 'entertainment',
-    logo: 'https://static.wikia.nocookie.net/logopedia/images/1/12/BTV_HD_Logo.svg',
-    description: 'Alternative direct port of BTV National streaming.'
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/btv-hd-bd.png',
+    description: 'National public network general entertainment portfolio.'
   },
   {
-    id: 'ent-btv-local',
-    name: 'BTV National (BIJOY Local)',
-    url: 'http://10.20.30.30:7171/Bangladesh-1/tracks-v1a1/mono.m3u8?token=sunrise0galaxy0eid',
+    id: 'ent-btv-ctg',
+    name: 'বিটিভি চট্টগ্রাম',
+    url: 'https://tvsen6.aynaott.com/btvctg/tracks-v1a1/mono.ts.m3u8',
     category: 'entertainment',
-    logo: 'https://static.wikia.nocookie.net/logopedia/images/1/12/BTV_HD_Logo.svg',
-    description: 'Local ultra low latency National BTV stream.'
+    logo: 'https://s3.aynaott.com/storage/20e835171a2d078ca6c678fc95bd4bbd',
+    description: 'Chittagong regional programs mirror BTV feed.'
   },
   {
-    id: 'ent-deepto-cdn1',
-    name: 'দীপ্ত টিভি (Public CDN)',
-    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8',
+    id: 'ent-sangsad-tv',
+    name: 'সংসদ বাংলাদেশ',
+    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8',
     category: 'entertainment',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Logo_of_Deepto_TV.svg/1200px-Logo_of_Deepto_TV.svg.png',
-    description: 'Modern family entertainment, serials and lifestyle.'
-  },
-  {
-    id: 'ent-deepto-cdn2',
-    name: 'দীপ্ত টিভি (Alternative CDN)',
-    url: 'https://byphdgllyk.gpcdn.net/hls/DeeptoTV/index.m3u8',
-    category: 'entertainment',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Logo_of_Deepto_TV.svg/1200px-Logo_of_Deepto_TV.svg.png',
-    description: 'Deepto TV stream optimized for broad reach.'
-  },
-  {
-    id: 'ent-deepto-local',
-    name: 'Deepto TV (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Bangladesh-2/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
-    category: 'entertainment',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Logo_of_Deepto_TV.svg/1200px-Logo_of_Deepto_TV.svg.png',
-    description: 'Local connection route for high definition Deepto TV.'
-  },
-  {
-    id: 'ent-ch-i-cdn',
-    name: 'চ্যানেল আই (Public CDN)',
-    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8',
-    category: 'entertainment',
-    logo: 'https://cdn.tvpassport.com/image/station/240x135/channel-i-bangla.png',
-    description: 'Award winning news and premier general entertainment.'
-  },
-  {
-    id: 'ent-ch-i-web',
-    name: 'চ্যানেল আই (Web Backup)',
-    url: 'http://stvlive.net:8080/channeli/index.m3u8',
-    category: 'entertainment',
-    logo: 'https://cdn.tvpassport.com/image/station/240x135/channel-i-bangla.png',
-    description: 'Alternative portal for global viewers of Channel I.'
-  },
-  {
-    id: 'ent-ch-i-local',
-    name: 'Channel I (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Bangladesh-7/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
-    category: 'entertainment',
-    logo: 'https://cdn.tvpassport.com/image/station/240x135/channel-i-bangla.png',
-    description: 'Fast local fiber network connection of Channel I.'
-  },
-  {
-    id: 'ent-ntv-cdn',
-    name: 'এনটিভি (Public CDN)',
-    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8',
-    category: 'entertainment',
-    logo: 'https://www.ntvbd.com/sites/default/files/aggregator/2020/02/17/ntv-channel_0.jpg',
-    description: 'Highly acclaimed general entertainment and classic dramas.'
-  },
-  {
-    id: 'ent-ntv-local',
-    name: 'NTV (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Bangladesh-4/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
-    category: 'entertainment',
-    logo: 'https://www.ntvbd.com/sites/default/files/aggregator/2020/02/17/ntv-channel_0.jpg',
-    description: 'High performance entertainment link on local server.'
-  },
-  {
-    id: 'ent-banglavision-cdn',
-    name: 'বাংলা ভিশন (Public CDN)',
-    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/1715-audio_113452_eng=113200-video=1692000.m3u8',
-    category: 'entertainment',
-    logo: 'https://www.bvnews24.com/media/common/newbvlogo.png',
-    description: 'Premium Bengali dramas, talkshows and headlines.'
-  },
-  {
-    id: 'ent-banglavision-backup',
-    name: 'বাংলা ভিশন (Web Backup)',
-    url: 'http://stvlive.net:8080/banglavision/index.m3u8',
-    category: 'entertainment',
-    logo: 'https://www.bvnews24.com/media/common/newbvlogo.png',
-    description: 'Backup route to Bangla Vision feed.'
-  },
-  {
-    id: 'ent-banglavision-local',
-    name: 'Bangla Vision (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Bangladesh-9/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
-    category: 'entertainment',
-    logo: 'https://www.bvnews24.com/media/common/newbvlogo.png',
-    description: 'Fast speed local mirror of Bangla Vision.'
-  },
-  {
-    id: 'ent-atn-bangla-cdn',
-    name: 'এটিএন বাংলা (Public CDN)',
-    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8',
-    category: 'entertainment',
-    logo: 'https://s6.gifyu.com/images/image27cfa7002786c232.png',
-    description: 'First satellite channel of Bangladesh with classical family shows.'
-  },
-  {
-    id: 'ent-deshtv-app',
-    name: 'Desh TV (CDN)',
-    url: 'https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/deshtv.stream/tracks-v1a1/mono.m3u8',
-    category: 'entertainment',
-    logo: 'https://www.deshitv.com/images//bangla_logo/DeshTV24-BanglaLogo.png',
-    description: 'General community news, live events and drama series.'
-  },
-  {
-    id: 'ent-ekushey-stream',
-    name: 'একুশে টিভি (Ekushey TV)',
-    url: 'https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8',
-    category: 'entertainment',
-    logo: 'https://i.postimg.cc/C15wr1RW/Ekushey-Television-Logo-svg.png',
-    description: 'First private terrestrial programming channel of Bangladesh.'
-  },
-  {
-    id: 'ent-ekushey-local',
-    name: 'Ekushey TV (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Bangladesh-3/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
-    category: 'entertainment',
-    logo: 'https://i.postimg.cc/C15wr1RW/Ekushey-Television-Logo-svg.png',
-    description: 'Reliable high speed local path for Ekushey TV.'
-  },
-  {
-    id: 'ent-metv',
-    name: 'Me-টিভি (Full HD)',
-    url: 'https://iptvbd.live/metv1080/1080.m3u8',
-    category: 'entertainment',
-    logo: 'https://buddytv.netlify.app/img/no-logo.png',
-    description: 'Premium Bengali variety entertainment mirror.'
-  },
-  {
-    id: 'ent-deshitv',
-    name: 'দেশি টিভি (Deshi TV)',
-    url: 'https://deshitv.deshitv24.net/live/myStream/playlist.m3u8',
-    category: 'entertainment',
-    logo: 'https://www.deshitv.com/images//bangla_logo/DeshTV24-BanglaLogo.png',
-    description: 'Regional entertainment, cultural dances and folk live streams.'
-  },
-  {
-    id: 'ent-mohonatv',
-    name: 'Mohona TV',
-    url: 'https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8',
-    category: 'entertainment',
-    logo: 'https://buddytv.netlify.app/img/no-logo.png',
-    description: 'Folk music, regional news bulletins and entertainment dramas.'
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/sangsad-television-bd.png',
+    description: 'Live Parliamentary proceedings and national events.'
   },
   {
     id: 'ent-mytv',
-    name: 'মাই টিভি (My TV)',
-    url: 'https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mytv-up-off.stream/tracks-v1a1/mono.m3u8',
+    name: 'মাই টিভি',
+    url: 'https://tvsen6.aynaott.com/mytv/index.m3u8',
     category: 'entertainment',
-    logo: 'https://dl.dropbox.com/s/jjr5835pbth49tm/my_tv_bd.png',
-    description: 'Empowering children and families through educational programs.'
+    logo: 'https://i.imgur.com/bahWhBG.png',
+    description: 'Classic general family shows and documentaries.'
   },
   {
-    id: 'ent-rajdhani',
-    name: 'Rajdhani TV',
-    url: 'https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8',
+    id: 'ent-banglavision',
+    name: 'Bangla Vision',
+    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8',
     category: 'entertainment',
-    logo: 'https://buddytv.netlify.app/img/no-logo.png',
-    description: 'Dhaka capital region local cable stream.'
+    logo: 'https://s3.aynaott.com/storage/e86c14566b4d5b6dd68ac37dce4f6043',
+    description: 'Premium family dramas, talkshows and headlines.'
   },
   {
-    id: 'ent-enter10',
-    name: 'Enter10 Bangla HD',
-    url: 'https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8',
+    id: 'ent-rtv',
+    name: 'RTV HD',
+    url: 'http://116.204.149.16/rtvhd/index.m3u8',
     category: 'entertainment',
-    logo: 'https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Enter%2010%20Bangla.jpeg',
-    description: 'Major entertainment dramas, short films and series.'
+    logo: 'https://s3.aynaott.com/storage/fd634ca672c8294f109225ca42d20991',
+    description: 'RTV satellite general entertainment stream.'
   },
   {
-    id: 'ent-machranga-local',
-    name: 'MachRanga TV (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Bangladesh-5/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
+    id: 'ent-atn-bangla',
+    name: 'এটিএন বাংলা',
+    url: 'https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/atnbd-8-org.stream/tracks-v1a1/mono.m3u8',
     category: 'entertainment',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/2617e1b9-31fa-47ab-a3d7-9880e757a93c_180x180_gazi_tv.png',
-    description: 'Beautiful colorful infotainment channel on local server.'
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/atn-bangla-hd-bd.png',
+    description: 'Classic first satellite channel of Bangladesh.'
   },
   {
-    id: 'ent-satv-local',
-    name: 'SA TV (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Bangladesh-10/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
+    id: 'ent-maasranga',
+    name: 'Maasranga TV',
+    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8',
     category: 'entertainment',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/e669d5a1-5d1b-4583-9832-aff70bdfd893_180x180_e18f5d1e-879c-44e1-b50f-863b724b665d.png',
-    description: 'SA TV premium music and talk shows on dedicated route.'
+    logo: 'https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Maasranga%20TV.png',
+    description: 'Analytical talkshows and family serials.'
   },
   {
-    id: 'ent-ch9-local',
-    name: 'Channel 9 (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Bangladesh-6/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
+    id: 'ent-channel-i',
+    name: 'Channel I',
+    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8',
     category: 'entertainment',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/e669d5a1-5d1b-4583-9832-aff70bdfd893_180x180_e18f5d1e-879c-44e1-b50f-863b724b665d.png',
-    description: 'Sports and entertainment oriented prime network.'
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/channel-i-hd-bd.png',
+    description: 'National award winning dramas and agricultural talkshows.'
   },
   {
-    id: 'ent-gseries',
-    name: 'G-Series Drama TV',
-    url: 'https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8',
+    id: 'ent-ntv',
+    name: 'NTV',
+    url: 'https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8',
     category: 'entertainment',
-    logo: 'https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Enter%2010%20Bangla.jpeg',
-    description: 'Continuous dramas, music, cultural streams, and modern sit-coms.'
+    logo: 'https://s3.aynaott.com/storage/73c39182782a201338070c2f4429e449',
+    description: 'NTV general entertainment and mirror dramas.'
   },
   {
-    id: 'ent-peacetv-local',
-    name: 'Peace TV Bangla (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Islamic-1/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
+    id: 'ent-deepto-tv',
+    name: 'Deepto TV',
+    url: 'http://103.158.133.62:8080/deepto/index.m3u8',
     category: 'entertainment',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/a7cb31b1-b6b4-4ec4-baed-6677124a8959_180x180_SSCSports1HD.jpeg',
-    description: 'Peaceful religious streams, discussions and moral lectures.'
+    logo: 'https://imglink.cc/cdn/2ODX-FAGY4.png',
+    description: 'Engaging family programs and high definition dramas.'
   },
   {
-    id: 'ent-islamictv-local',
-    name: 'Islamic TV Bangla (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Islamic-2/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
+    id: 'ent-etv',
+    name: 'ETV (একুশে টিভি)',
+    url: 'https://tvsen6.aynaott.com/etv/index.m3u8',
     category: 'entertainment',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/a7cb31b1-b6b4-4ec4-baed-6677124a8959_180x180_SSCSports1HD.jpeg',
-    description: 'Local religious daily programs stream.'
+    logo: 'https://s3.aynaott.com/storage/d805cf57543080b49de8a2621cd54da4',
+    description: 'Terrestrial general coverage and news portfolio.'
   },
   {
-    id: 'ent-starjolsha-local',
-    name: 'Star Jolsha (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Entertainment-1/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
+    id: 'ent-global-tv',
+    name: 'Global TV',
+    url: 'https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/Global-tv.stream/playlist.m3u8',
     category: 'entertainment',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/09bff4ab-934e-4b47-bacd-4c24ffaf3047_180x180_zee-bangla-hd.jpg',
-    description: 'Highly popular GEC broadcasting hit Bengali serials.'
+    logo: 'https://s3.aynaott.com/storage/bda05e1c2173251baebc20ffe43dea0b',
+    description: 'Interactive cultural stream and lifestyle serials.'
   },
   {
-    id: 'ent-zeebangla-local',
-    name: 'ZEE Bangla (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Entertainment-2/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
+    id: 'ent-green-tv',
+    name: 'Green TV Bangladesh',
+    url: 'https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/chunks.m3u8',
     category: 'entertainment',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/09bff4ab-934e-4b47-bacd-4c24ffaf3047_180x180_zee-bangla-hd.jpg',
-    description: 'Daily prime time dramas and competitive game shows.'
+    logo: 'https://cdnhost.akashbd.net/assets/uploads/channels_images/1683606878-6994272.png',
+    description: 'New generation entertainment channel with visual serials.'
   },
   {
-    id: 'ent-sonyaath-local',
-    name: 'Sony Aath (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Entertainment-4/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
+    id: 'ent-zee-bangla-hd',
+    name: 'Zee Bangla HD',
+    url: 'http://103.158.133.62:8080/zee_bangla_hd/tracks-v1a1/mono.m3u8',
     category: 'entertainment',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/09bff4ab-934e-4b47-bacd-4c24ffaf3047_180x180_zee-bangla-hd.jpg',
-    description: 'Crime Petrol and animated thriller series.'
+    logo: 'https://i.ibb.co.com/9HM31yqc/ZEE-BANGLA-HD.png',
+    description: 'High definition broadcast of premier serials.'
   },
   {
-    id: 'ent-colorsbangla-local',
-    name: 'Colors Bangla (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Entertainment-3/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
+    id: 'ent-sun-bangla-hd',
+    name: 'Sun Bangla HD',
+    url: 'https://xfireflix.my.id/mac.php?id=908685.m3u8',
     category: 'entertainment',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/09bff4ab-934e-4b47-bacd-4c24ffaf3047_180x180_zee-bangla-hd.jpg',
+    logo: 'https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Sun%20Bangla.png',
+    description: 'Sun Bangla news, dramas and music.'
+  },
+  {
+    id: 'ent-star-jalsha-hd',
+    name: 'Star Jalsha HD',
+    url: 'https://tvsen3.aynascope.net/n64PH4YL/index.m3u8',
+    category: 'entertainment',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png',
+    description: 'High definition Indian Bengali daily soap broadcaster.'
+  },
+  {
+    id: 'ent-colors-bangla-hd',
+    name: 'Colors Bangla HD',
+    url: 'http://live.balajibroadband.com:3500/live/756.m3u8',
+    category: 'entertainment',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/Colors_Bangla.png',
     description: 'Engaging real family values drama broadcaster.'
   },
   {
-    id: 'ent-hindihits-local',
-    name: 'Hindi Hits (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Music-1/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
+    id: 'ent-colors-bangla-cinema',
+    name: 'Colors Bangla Cinema',
+    url: 'http://live.balajibroadband.com:3500/live/1657.m3u8',
     category: 'entertainment',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/22a8244f-9923-497a-a626-768cdd2d4d3c_180x180_sports-18.jpg',
-    description: 'Non-stop latest Bollywood hits and classic tracks.'
+    logo: 'https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Bangla_Cinema.png',
+    description: 'Bengali blockbusters and continuous cinemas.'
   },
   {
-    id: 'ent-yrfmusic-local',
-    name: 'YRF Music (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Music-2/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
+    id: 'ent-jalsha-movies-hd',
+    name: 'Jalsha Movies HD',
+    url: 'http://103.158.133.62:8080/jalsha_movies_hd/tracks-v1a1/mono.m3u8',
     category: 'entertainment',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/22a8244f-9923-497a-a626-768cdd2d4d3c_180x180_sports-18.jpg',
-    description: 'Yash Raj Films official music loops non stop.'
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/jalsha-movies-hd-in.png',
+    description: 'High definition sports and blockbuster films.'
   },
   {
-    id: 'ent-songeet-local',
-    name: 'Songeet Bangla (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Music-4/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
+    id: 'ent-colors-hd',
+    name: 'Colors HD',
+    url: 'http://live.balajibroadband.com:3500/live/144.m3u8',
     category: 'entertainment',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/22a8244f-9923-497a-a626-768cdd2d4d3c_180x180_sports-18.jpg',
-    description: 'Leading Bengali video songs television station.'
+    logo: 'https://jiotv.catchup.cdn.jio.com/dare_images/images/ColorsHD.png',
+    description: 'Sony/Viacom 18 prime entertainment serials.'
   },
   {
-    id: 'ent-natgeobangla-local',
-    name: 'Nat Geo Bangla (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Documentary-2/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
+    id: 'ent-starplus-hd',
+    name: 'StarPlus HD',
+    url: 'https://tvsen7.aynaott.com/sphdbd/index.m3u8',
     category: 'entertainment',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/63d49539-a30b-4326-8848-2af69fb58f92_180x180_discovery_kids.jpg',
-    description: 'National Geographic popular science, technology & history in Bengali.'
+    logo: 'https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Plus_HD.png',
+    description: 'Leading generic entertainment and soap channel.'
   },
   {
-    id: 'ent-discoverybangla-local',
-    name: 'Discovery Bangla (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Documentary-3/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
+    id: 'ent-sony-hd',
+    name: 'Sony TV HD',
+    url: 'https://b4uplay.com/sliv/stream.m3u8?id=1000009246|referer=https://b4uplay.com/',
     category: 'entertainment',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/63d49539-a30b-4326-8848-2af69fb58f92_180x180_discovery_kids.jpg',
-    description: 'Survivalist adventures, construction, wild discovery.'
+    logo: 'https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-entertainment-television-hd-in.png',
+    description: 'Premium family game shows, CID and CID classics.'
   },
   {
-    id: 'ent-bbcearth-local',
-    name: 'BBC Earth (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Documentary-5/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
+    id: 'ent-sony-sab-hd',
+    name: 'Sony Sab HD',
+    url: 'https://b4uplay.com/sliv/stream.m3u8?id=1000009248|referer=https://b4uplay.com/',
     category: 'entertainment',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/63d49539-a30b-4326-8848-2af69fb58f92_180x180_discovery_kids.jpg',
-    description: 'Breathtaking nature captures guided by David Attenborough.'
+    logo: 'https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/ea93cb6a-cb48-4841-99d2-8d2cfd835b63.jpg',
+    description: 'Non-stop laughter, comedy dramas and Taarak Mehta.'
   },
   {
-    id: 'ent-natgeowild-local',
-    name: 'Nat Geo WILD (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Documentary-4/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
+    id: 'ent-sony-pal',
+    name: 'Sony Pal',
+    url: 'https://b4uplay.com/sliv/stream.m3u8?id=1000009273|referer=https://b4uplay.com/',
     category: 'entertainment',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/63d49539-a30b-4326-8848-2af69fb58f92_180x180_discovery_kids.jpg',
-    description: 'Stunning close ups with active predators and migrations.'
+    logo: 'https://sonypicturesnetworks.com/images/logos/SONY%20PAL.png',
+    description: 'Continuous drama serials and cultural streams.'
   },
   {
-    id: 'ent-animalplanet-local',
-    name: 'Animal Planet (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Documentary-1/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
+    id: 'ent-sony-aath',
+    name: 'Sony Aath',
+    url: 'https://b4uplay.com/sliv/stream.m3u8?id=1000009255|referer=https://b4uplay.com/',
     category: 'entertainment',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/63d49539-a30b-4326-8848-2af69fb58f92_180x180_discovery_kids.jpg',
-    description: 'Human animal relationships, veterinary shows and wildlife reserves.'
-  },
-  {
-    id: 'ent-lovenature-local',
-    name: 'Love Nature (BIJOY Local)',
-    url: 'http://10.20.30.40:7171/Documentary-7/tracks-v1a1/mono.ts.m3u8?token=sunrise0galaxy0eid',
-    category: 'entertainment',
-    logo: 'https://cloudtv.akamaized.net/anyott/images/CMS_BD/63d49539-a30b-4326-8848-2af69fb58f92_180x180_discovery_kids.jpg',
-    description: 'Documenting the beauty and complexity of our green planet.'
+    logo: 'https://sonypicturesnetworks.com/images/logos/SONY%20AATH.png',
+    description: 'Vibrant crime mysteries, drama series and cartoons in Bengali.'
   }
 ];
